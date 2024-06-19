@@ -1,0 +1,258 @@
+@media (min-width: 1800px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .cards {
+        &__items {
+            justify-content: space-between;
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            justify-content: space-between;
+        }
+    }
+
+    .promo {
+        &__img {
+            padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .promo {
+        &__img {
+            height: 40rem;
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+
+
+    .product-list {
+        &__line {
+            display: none;
+        }
+    }
+
+    .cards {
+        &__items {
+            justify-content: space-evenly;
+        }
+
+        &__title {
+            margin-bottom: 7rem;
+        }
+    }
+
+    .promo {
+        &__title {
+            max-width: 55rem;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+
+
+
+    .main-form {
+        &__line {
+            flex-wrap: wrap;
+        }
+
+        &__input {
+            max-width: 100%;
+        }
+
+        &__input:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 1.7rem;
+        }
+
+        &__textarea {
+            padding: 2rem 2rem 4rem;
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+
+    .header {
+        &__phones {
+            display: none;
+        }
+    }
+
+
+
+    .product {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 7rem;
+        }
+
+        &__main-img {
+            width: 80%;
+        }
+
+        &__btn {
+            width: 100%;
+        }
+    }
+
+    .product-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+
+    .phones-footer {
+        &__link {
+            display: block;
+        }
+
+        &__link:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+
+
+    .promo {
+
+
+        &__content {
+            justify-content: center;
+            text-align: center;
+        }
+
+
+    }
+
+
+    .card {
+        display: block;
+        max-width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        &__title {
+            font-size: 2.6rem;
+        }
+    }
+
+    .footer {
+        padding: 5rem 0;
+
+        &__hexagon-big,
+        &__hexagon-small {
+            display: none;
+        }
+
+        &__wrapper {
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        &__item {
+            min-width: 100%;
+
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+
+
+
+    .slider {
+        padding: 10rem 0;
+
+        &__image {
+            top: -30px;
+        }
+
+        &__item {
+            width: 100%;
+        }
+
+        &__item:not(:last-child) {
+            margin-bottom: 7rem;
+            ;
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 650px) {
+    .advantages {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+
+        &__image {
+            width: 100%;
+        }
+
+        &__descr {
+            width: 100%;
+        }
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 45%;
+    }
+
+    .slider {
+        padding: 5rem 0;
+    }
+
+        .landing-form {
+            padding: 2rem;
+        }
+
+    .promo {
+        &__content {
+            flex-wrap: wrap;
+        }
+
+        &__img {
+            height: 20rem;
+        }
+    }
+
+
+}
